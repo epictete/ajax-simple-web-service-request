@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+body {
+    background-image: url("/assets/img/chalkboard-517818_1920.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    width: 60vw;
+    height: 100vh;
+    color: white;
+    padding: 25px;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+#quoteText {
+    font-size: 3rem;
+}
+
+#quoteAuthor {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 40vw;
+    max-height: 40vh;
+    border : 3px solid white;
+    border-radius: 10px;
+}
